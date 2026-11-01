@@ -5,9 +5,12 @@
     "name": "Umbrella",
     "short": "Tells you whether to take an umbrella today",
     "description": "Tells you whether to take an umbrella today",
-    "end_user_data_statement": "This cog does not persistently store data about users.",
+    "end_user_data_statement": "This cog stores the home city you set with `umbrella home`. It is deleted on data deletion requests.",
     "requirements": [],
-    "tags": [],
+    "tags": [
+        "weather",
+        "utility"
+    ],
     "min_bot_version": "3.5.0",
     "hidden": false,
     "disabled": false,
