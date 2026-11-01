@@ -1,19 +1,19 @@
-# mycog
+# umbrella
 
-Example cog created from `cog-template`. Replace this README when you build the real cog.
+Example cog created by new-cog. Replace this README when you build the real cog.
 
 ## Commands
 
 | Command | Who | What |
 |---|---|---|
-| `[p]mycog` | anyone | Says hello and increments a counter. |
-| `[p]mycog reset` | owner | Resets the counter. |
+| `[p]umbrella` | anyone | Says hello and increments a counter. |
+| `[p]umbrella reset` | owner | Resets the counter. |
 
 ## Events emitted
 
 | Event | Listener signature | When |
 |---|---|---|
-| `mycog_hello` | `on_mycog_hello(self, user: discord.abc.User, count: int)` | After `[p]mycog` runs. |
+| `umbrella_hello` | `on_umbrella_hello(self, user: discord.abc.User, count: int)` | After `[p]umbrella` runs. |
 
 ## Public methods
 

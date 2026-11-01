@@ -1,7 +1,7 @@
 from redbot.core.bot import Red
 
-from .mycog import MyCog
+from .umbrella import Umbrella
 
 
 async def setup(bot: Red) -> None:
-    await bot.add_cog(MyCog(bot))
+    await bot.add_cog(Umbrella(bot))

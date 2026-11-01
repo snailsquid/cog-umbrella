@@ -1,8 +1,10 @@
 {
-    "author": ["snailsquid"],
-    "name": "MyCog",
-    "short": "Example cog.",
-    "description": "Example cog created from cog-template.",
+    "author": [
+        "snailsquid"
+    ],
+    "name": "Umbrella",
+    "short": "Tells you whether to take an umbrella today",
+    "description": "Tells you whether to take an umbrella today",
     "end_user_data_statement": "This cog does not persistently store data about users.",
     "requirements": [],
     "tags": [],
